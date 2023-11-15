@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+[fundo-torcida="nada"]{
+    background-color: rgb(255, 255, 255);
+
+}
+
+[fundo-torcida="tri-campeao"]{
+    background-image: url(imgs/tricolor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+[fundo-torcida="vai-curintia"]{
+    background-image: url(imgs/vaicorin.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spfc {
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spfc:hover {
+    background-color: rgb(95, 27, 27);
+}
+
+
+.corint {
+    background-color: rgb(136, 136, 136);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corint:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+.botao-reset {
+    background-color: rgb(82, 145, 82);
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botao-reset:hover {
+    background-color: rgb(21, 48, 21);
+    color: white;
+}
